@@ -1,7 +1,5 @@
 # Social Media Links Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
 The **Social Media Links** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Add links to social media sites
 
 ## Installation
@@ -37,20 +35,46 @@ Before configuring this plugin, you should copy the `user/plugins/social-media-l
 Here is the default configuration and an explanation of available options:
 
 ```yaml
-enabled: true
+enabled: true  			# enables the plugin
+built_in_css: true		# include the default css
+social_pages:
+  pages:			# the pages that can be used
+    facebook:
+      icon: facebook		# the fontawesome icon (fa- is added automatically)
+      title: Facebook		# the text that is displayed as title for the link
+      position: 1		# the ordering position the icon is arranged
+    twitter:
+      icon: twitter
+      title: Twitter
+      position: 2
+    instagram:
+      icon: instagram
+      title: Instagram
+      position: 3
+    pinterest:
+      icon: pinterest
+      title: Pinterest
+      position: 4
+    github:
+      icon: github
+      title: GitHub
+      position: 5
+    linkedin:
+      icon: linkedin
+      title: LinkedIn
+      position: 6
 ```
 
 Note that if you use the admin plugin, a file with your configuration, and named social-media-links.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.
 
 ## Usage
+Just include the partial template from the plugin wherever you want it to show in your page or template.
 
-**Describe how to use the plugin.**
+```
+{% include 'partials/socialmedia.html.twig' %}
+```
+
+If you inlcude this code on a page, don't forget to activate Twig processing in advanced options so the code above is processed.
 
 ## Credits
-
-**Did you incorporate third-party code? Want to thank somebody?**
-
-## To Do
-
-- [ ] Future plans, if any
-
+Inspired by the aboutme-plugin from Sébastien Viallemonteil (https://github.com/birssan/grav-plugin-about-me).
