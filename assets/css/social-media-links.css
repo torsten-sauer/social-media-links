@@ -1,0 +1,7 @@
+.social-pages a {
+	display: inline-block;
+	vertical-align: middle;
+}
+.social-pages a + a {
+	margin-left: 10px;
+}
