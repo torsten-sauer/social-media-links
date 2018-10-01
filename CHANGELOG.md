@@ -1,5 +1,7 @@
-# v1.0.0
-##  09/13/2018
+# v1.0.1
+##  10/01/2018
 
 1. [](#new)
-    * Initial creation of the plugin 
+    * Initial creation of the plugin
+2. [](#improvement)
+    * fixed some broken links in blueprint.yaml
