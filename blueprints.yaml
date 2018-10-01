@@ -1,15 +1,15 @@
 name: Social Media Links
-version: 1.0.0
+version: 1.0.1
 description: Add links to social media sites
 icon: plug
 author:
   name: Torsten Sauer
   email: grav-dev@torsten-sauer.de
-homepage: https://github.com/torsten-sauer/grav-plugin-social-media-links
+homepage: https://github.com/torsten-sauer/social-media-links
 demo: http://demo.yoursite.com
 keywords: grav, plugin, social, media, facebook, twitter, instagram 
-bugs: https://github.com/torsten-sauer/grav-plugin-social-media-links/issues
-docs: https://github.com/torsten-sauer/grav-plugin-social-media-links/blob/develop/README.md
+bugs: https://github.com/torsten-sauer/social-media-links/issues
+docs: https://github.com/torsten-sauer/media-links/blob/master/README.md
 license: MIT
 
 form:
