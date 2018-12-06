@@ -6,10 +6,10 @@ author:
   name: Torsten Sauer
   email: grav-dev@torsten-sauer.de
 homepage: https://github.com/torsten-sauer/social-media-links
-demo: http://demo.yoursite.com
+demo: https://github.com/torsten-sauer/social-media-links
 keywords: grav, plugin, social, media, facebook, twitter, instagram 
 bugs: https://github.com/torsten-sauer/social-media-links/issues
-docs: https://github.com/torsten-sauer/media-links/blob/master/README.md
+docs: https://github.com/torsten-sauer/social-media-links/blob/master/README.md
 license: MIT
 
 form:
