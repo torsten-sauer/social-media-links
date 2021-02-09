@@ -66,7 +66,7 @@ class SocialMediaLinksPlugin extends Plugin
 		$twig = $this->grav['twig'];
 		$pages = $this->config->get('plugins.social-media-links.social_pages.pages');	
 		uasort($pages, function($a, $b) {
-			return $a['position'] < $b['position'] ? -1 : $a['position'] == $b['position'] ? 0 : 1;
+			return $a['position'] < $b['position'] ? -1 : ($a['position'] == $b['position'] ? 0 : 1);
         });
         $twig->twig_vars['social_pages'] = $pages;
 	}
