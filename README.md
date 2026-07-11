@@ -1,3 +1,7 @@
+# This repository is archived as I no longer use GravCMS. Feel free to fork it! No more support or changes will be available here!
+
+---
+
 # Social Media Links Plugin
 
 The **Social Media Links** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Add links to social media sites
